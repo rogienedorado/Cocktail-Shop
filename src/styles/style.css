@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 80px auto;
+  text-align: center;
+  position: relative;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .app-container {
+    margin: 60px auto;
+    max-width: 90%;
+  }
+
+  .shopping-list {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    margin-top: 20px;
+    right: auto;
+  }
+
+  .print-button-container {
+    text-align: center;
+  }
+
+  .pagination-buttons {
+    margin-right: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .app-container {
+    margin: 60px auto;
+    max-width: 90%;
+  }
+
+  .shopping-list {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    margin-top: 20px;
+    right: auto;
+  }
+
+  .print-button-container {
+    text-align: center;
+  }
+
+  .pagination-buttons {
+    margin-right: 0;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .app-container {
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+
+  .app-title {
+    font-size: 1.6rem;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-input {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .search-button {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .shopping-list {
+    width: 100%;
+    max-height: 280px;
+    top: auto;
+    position: relative;
+  }
+
+  .pagination-buttons {
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 0;
+  }
+
+  .prev-button,
+  .next-button {
+    width: 100%;
+  }
+}
