@@ -123,12 +123,29 @@ function App(el) {
   margin-bottom: 1.5rem;
 }
 
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
 .prev-button,
-  .next-button {
-     background-color: #0e98d4;
+.next-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0e98d4;
   color: #fff;
   cursor: pointer;
-  }
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #0c82b6;
+}
 
 @media (max-width: 1024px) {
   .app-container {
