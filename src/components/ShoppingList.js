@@ -48,7 +48,7 @@ function ShoppingList(el) {
     <style>
       .shopping-list {
         position: absolute;
-        background-image: url("/src/images/cocktail3.jpg");
+        background-image: url("./src/images/cocktail3.jpg");
         background-size: cover;
         top: 154px;
         right: -80px;
@@ -63,7 +63,7 @@ function ShoppingList(el) {
       }
 
       .list-container {
-        height: 400px; /* adjust as needed */
+        height: 400px;
         max-width: 210px;
         overflow-y: auto; /* scroll when items exceed height */
         transition: all 0.3s ease;
@@ -74,7 +74,7 @@ function ShoppingList(el) {
         text-align: center;
         align-items: center;
       }
-      
+
       .shopping-list .list-container {
         margin-left: 20px;
         max-height: 250px;
@@ -95,15 +95,15 @@ function ShoppingList(el) {
       }
 
       .remove-button {
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 4px;
-  padding: 2px 4px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-left: 10px;
-}
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 4px;
+        padding: 2px 4px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-left: 10px;
+      }
 
       .print-button-container {
         position: sticky;

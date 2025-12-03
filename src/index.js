@@ -146,10 +146,6 @@ function App(el) {
   background-color: #0c82b6;
 }
 
-.prev-button:hover,
-.next-button:hover {
-  background-color: #0c82b6;
-}
 @media (max-width: 1024px) {
   .app-container {
     margin: 60px auto;
