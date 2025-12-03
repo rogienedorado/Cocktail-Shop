@@ -44,7 +44,7 @@ function ShoppingList(el) {
     <style>
       .shopping-list {
         position: absolute;
-        top: 160px;
+        top: 154px;
         right: -80px;
         width: 250px;
         padding: 20px;
