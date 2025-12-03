@@ -106,7 +106,6 @@ function App(el) {
     <style>
         body {
   font-family: Arial, sans-serif;
-  background-color: #fafafa;
   margin: 0;
   padding: 0;
 }
@@ -147,6 +146,10 @@ function App(el) {
   background-color: #0c82b6;
 }
 
+.prev-button:hover,
+.next-button:hover {
+  background-color: #0c82b6;
+}
 @media (max-width: 1024px) {
   .app-container {
     margin: 60px auto;
@@ -170,7 +173,6 @@ function App(el) {
   }
 
 }
-
 
 @media (max-width: 768px) {
   .app-container {
