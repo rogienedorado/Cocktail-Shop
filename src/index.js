@@ -212,15 +212,30 @@ function App(el) {
   }
 
   .pagination-buttons {
-    flex-direction: column;
-    gap: 8px;
-    margin-right: 0;
-  }
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  margin-right: 350px;
+  min-height: 44px;
+}
 
-  .prev-button,
-  .next-button {
-    width: 100%;
-  }
+.prev-button,
+.next-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0e98d4;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #0c82b6;
+}
 }
 
     </style>
