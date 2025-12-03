@@ -216,8 +216,6 @@ function App(el) {
   justify-content: center;
   gap: 12px;
   margin-top: 20px;
-  margin-right: 350px;
-  min-height: 44px;
 }
 
 .prev-button,
